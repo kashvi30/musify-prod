@@ -1,0 +1,60 @@
+.upload-main{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ecef;
+}
+.upload-box{
+    width:40%;
+    padding-block: 30px;
+    background-color: white;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+.upload-song-title{
+    width:80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.upload-song-title input{
+    height:2rem;
+    border-radius: 0.5rem;
+}
+.upload-file input{
+    display: none;
+}
+.upload-file{
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.upload-file button{
+    width:100%;
+    height:3rem;
+    background-color: white;
+    color:black;
+    border:1px solid black;
+    border-radius: 0.5rem;
+}
+.upload-btn{
+    width:80%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border:none;
+    background-color: black;
+    color:white;
+}
+.upload-btn:hover{
+    background-color: #fff;
+    color:black;
+    border:1px solid black;
+}
