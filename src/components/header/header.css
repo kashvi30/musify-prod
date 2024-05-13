@@ -102,8 +102,3 @@
 		justify-content: right;
 	}
 }
-@media only screen and (max-width:600px){
-	.header-logo-section img{
-		content: url("../../assets/Logo-Small.svg");
-	}
-}
